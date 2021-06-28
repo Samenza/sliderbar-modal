@@ -1,0 +1,27 @@
+.slider {
+  width: 25rem;
+  box-shadow: 0 5px 10px 5px rgba(167, 167, 167, 0.603);
+  position: fixed;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 1030;
+  transition: traslate 2s;
+}
+
+.close {
+  transform: translateX(-25rem);
+}
+.open {
+  transform: translateX(0);
+}
+
+.title {
+  margin: 20px 20px;
+  text-shadow: 0 2px 4px;
+}
+.menuSlider a:hover {
+  background-color: rgba(212, 238, 243, 0.521);
+}
+.menuSlider {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.modal {
+  background-color: rgba(175, 174, 174, 0.644);
+  z-index: 1070;
+}
+
+.modalBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 30vh;
+  padding: 10px;
+}
